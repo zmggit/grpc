@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net"
 	"google.golang.org/grpc/grpclog"
-	pb "github.com/zmggit/go-grpc/proto/hello"
 
 )
 
@@ -21,7 +20,7 @@ type helloService struct{}
 var HelloService = helloService{}
 
 // SayHello 实现Hello服务接口
-func (h helloService) SayHello(ctx context.Context,in *pb.HelloRequest) () {
+func (h helloService) SayHello(ctx context.Context,in *pb.HelloClient) () {
 
 }
 
