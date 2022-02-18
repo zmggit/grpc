@@ -1,4 +1,4 @@
-module github.com/zmggit/go-grpc
+module github.com/zmggit/grpc
 
 go 1.14
 
