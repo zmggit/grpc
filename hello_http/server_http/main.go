@@ -5,7 +5,7 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"context"
 	"google.golang.org/grpc"
-	gw "github.com/zmggit/go-grpc/hello_http"
+	gw "github.com/zmggit/grpc/proto/hello_http"
 	"net/http"
 )
 
