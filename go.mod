@@ -1,4 +1,4 @@
-module go_learn_demo/WeiFuWu/Grpc
+module github.com/zmggit/go-grpc
 
 go 1.14
 
