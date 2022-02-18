@@ -5,7 +5,7 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"context"
 	"google.golang.org/grpc"
-	gw "github.com/zmggit/grpc/proto/hello_http"
+	gw "github.com/zmggit/grpc"
 	"net/http"
 )
 
@@ -14,7 +14,7 @@ func main()  {
 	ctx , cancel := context.WithCancel(ctx)
 	defer cancel()
 
-	// grpc服务地址
+	// grpc服务地址a
 	endpoint := "127.0.0.1:50052"
     mux :=  runtime.NewServeMux()
     opts := []grpc.DialOption{grpc.WithInsecure()}
