@@ -2,7 +2,7 @@ syntax = "proto3"; // 指定proto版本
 package hello;     // 指定默认包名
 
 // 指定golang包名
-option go_package = "./";
+option go_package = "./hello";
 
 // 定义Hello服务
 service Hello {
