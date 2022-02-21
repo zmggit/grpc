@@ -60,6 +60,8 @@ github.com/zmggit/go-grpc v1.44.6 h1:kmE72lnVmIkC5u/zuHfaxVWh2Na9rp98vPI4T2Q+k2Q
 github.com/zmggit/grpc v1.11.3 h1:jO8Qw1Y9z2O1p0wB6IvWiBQ9lmS2Yo3Kc7rppmo/q34=
 github.com/zmggit/grpc v1.44.4 h1:uSrPxlH2YC8R55d2c6efJwejKhlWrOcBJD6B8bRSUQk=
 github.com/zmggit/grpc v1.44.4/go.mod h1:wOvpMhlvyJ2GfGJQJxNHaJKb4SOuuahqRBD1romwJ6Q=
+github.com/zmggit/grpc v1.44.5 h1:Ucivr7wC3NYSymoI05PHIw8+M+RswmwZUSr+I9bgFKU=
+github.com/zmggit/grpc v1.44.5/go.mod h1:wOvpMhlvyJ2GfGJQJxNHaJKb4SOuuahqRBD1romwJ6Q=
 go.opentelemetry.io/proto/otlp v0.7.0/go.mod h1:PqfVotwruBrMGOCsRd/89rSnXhoiJIqeYNgFYFoEGnI=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
